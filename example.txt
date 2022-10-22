@@ -1,0 +1,4 @@
+java -Dperdelay=2500 -Ddelay=1 -Drmnwp=false -Dr=false -Dlen=25555 -jar nettybooter.jar domain/ip:port method 10000 protocol(https://wiki.vg/Protocol_version_numbers) 60 socks4.txt socks4
+
+example joiner: java -Dperdelay=2500 -Ddelay=1 -Drmnwp=false -Dr=false -Dlen=25555 -jar nettybooter.jar netherportal.org 5 10000 340 60 socks4.txt socks4
+example nullping: java -Dperdelay=2500 -Ddelay=1 -Drmnwp=false -Dr=false -Dlen=25555 -jar nettybooter.jar netherportal.org 6 10000 340 60 socks4.txt socks4
